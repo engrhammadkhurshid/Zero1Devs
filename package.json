@@ -1,0 +1,10 @@
+{
+  "name": "zero1devs",
+  "version": "1.0.0",
+  "description": "Zero1Devs Static Site",
+  "scripts": {
+    "build": "echo \"No build step required\" && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
