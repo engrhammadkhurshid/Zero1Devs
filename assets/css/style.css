@@ -88,8 +88,8 @@ Last Update: 20-07-2025
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #0B59DB;
-  --primary-color: #0B59DB;
+  --theme-color: #3E50DB;
+  --primary-color: #3E50DB;
   --title-color: #0B1422;
   --body-color: #6E7070;
   --smoke-color: #F2F5FA;
@@ -105,7 +105,7 @@ Last Update: 20-07-2025
   --success-color: #28a745;
   --error-color: #dc3545;
   --th-border-color: #D5D7DA;
-  --brand-color: #79F4E4;
+  --brand-color: #17B6FB;
   --light-blue-color: #001C49;
   --title-font: "Plus Jakarta Sans", sans-serif;
   --body-font: "Nunito", sans-serif;
