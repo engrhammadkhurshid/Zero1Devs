@@ -487,29 +487,68 @@
     <!--==============================
     Sidemenu
 ============================== -->
-    <header class="th-header header-layout5">
+    <!--==============================
+	Header Area
+==============================-->
+    <header class="th-header header-layout1 header-layout4 header-layout7">
+      <div class="header-top">
+        <div class="container th-container">
+          <div
+            class="row justify-content-center justify-content-xl-between align-items-center"
+          >
+            <div class="col-auto d-none d-md-block">
+              <div class="header-links">
+                <ul>
+                  <li class="d-none d-xl-inline-block">
+                    <i class="fa-sharp fa-regular fa-location-dot"></i>
+                    <span>45 New Eskaton Road, Austria</span>
+                  </li>
+                  <li class="d-none d-xl-inline-block">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>Sun to Friday: 8.00 am - 7.00 pm</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="header-right">
+                <div class="currency-menu">
+                  <select class="form-select nice-select">
+                    <option selected="">language</option>
+                    <option>CNY</option>
+                    <option>EUR</option>
+                    <option>AUD</option>
+                  </select>
+                </div>
+                <div class="header-links">
+                  <ul>
+                    <li class="d-none d-md-inline-block">
+                      <a href="faq.html">FAQ</a>
+                    </li>
+                    <li class="d-none d-md-inline-block">
+                      <a href="contact.html">Support</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="sticky-wrapper">
         <!-- Main Menu Area -->
         <div class="menu-area">
-          <div class="header-button">
-            <a href="#" class="simple-btn sideMenuToggler d-none d-xl-block">
-              <img src="assets/img/icon/menu.svg" alt="" loading="lazy" />
-            </a>
-            <button type="button" class="th-menu-toggle d-block d-xl-none">
-              <i class="far fa-bars"></i>
-            </button>
-          </div>
-          <div class="container th-container6">
+          <div class="container th-container">
             <div class="row align-items-center justify-content-between">
               <div class="col-auto">
                 <div class="header-logo">
-                  <a href="index.html">
-                    <img src="assets/img/logo2.svg" alt="Atek" loading="lazy" />
-                  </a>
+                  <a href="index.html"
+                    ><img src="assets/img/logo.svg" alt="Atek" loading="lazy"
+                  /></a>
                 </div>
               </div>
               <div class="col-auto">
-                <nav class="main-menu d-none d-xl-block">
+                <nav class="main-menu d-none d-xl-inline-block">
                   <ul>
                     <li class="menu-item-has-children mega-menu-wrap">
                       <a class="active" href="index.html">Home</a>
@@ -896,9 +935,30 @@
                     </li>
                   </ul>
                 </nav>
+                <button type="button" class="th-menu-toggle d-block d-xl-none">
+                  <i class="far fa-bars"></i>
+                </button>
+              </div>
+              <div class="col-auto d-none d-xl-block">
+                <div class="header-button">
+                  <a
+                    href="contact.html"
+                    class="th-btn th-radius white-btn th-icon"
+                  >
+                    Get In Touch <i class="fa-light fa-arrow-right-long"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+          <div
+            class="logo-bg"
+            data-mask-src="assets/img/logo_bg_mask.png"
+          ></div>
+          <div
+            class="menu-right-bg"
+            data-mask-src="assets/img/menu_bg_mask.png"
+          ></div>
         </div>
       </div>
     </header>
